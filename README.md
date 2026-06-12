@@ -4,13 +4,11 @@
 **Lecture Section:** TC1L  
 **Tutorial Section:** TT1L  
 
-**Group Leader:** Thulasie A/P Ganesan (252UC254Q4)  
-
 **Members:**
-- ANGELA WONG XIN YI (252UC254PP) – Dataset generation, Hash Table Search
-- DAMIA IRDINA BINTI AZZUDDIN RIZAL (252UC254RQ) – Heap Sort
-- NUR AFIA BINTI FAHRUDEAN (252UC254Q5) – Hash Table Search (assisting)
-- THULASIE A/P GANESAN (252UC254Q4) – Radix Sort (LSD), Report integration
+- ANGELA WONG XIN YI (252UC254PP) 
+- DAMIA IRDINA BINTI AZZUDDIN RIZAL (252UC254RQ)
+- NUR AFIA BINTI FAHRUDEAN (252UC254Q5)
+- THULASIE A/P GANESAN (252UC254Q4)
 
 ---
 
