@@ -20,12 +20,8 @@ This repository contains the full implementation of the group assignment for CCP
 - **Radix Sort (LSD)** – sorts integers from the rightmost digit:
   - `radix_sort_step` – shows sorting steps for a given row range.
   - `radix_sort` – sorts the whole dataset, outputs sorted CSV and running time.
-- **Heap Sort (Max‑Heap)** – sorts using a heap data structure. (Similar step and full versions.)
+- **Heap Sort (Max‑Heap)** – sorts using a heap data structure.
 - **Hash Table Search** – implements search with linear collision resolution, measures best/average/worst case times.
-
-All algorithms are implemented **without using any built‑in sorting or searching libraries**.
-
----
 
 ## Repository Structure
 
