@@ -47,39 +47,47 @@ Each team member will work on their own `.cpp` files. **Do not put all files in 
 - The program looks for a file named `config.txt` in the **same folder as the `.cpp` file**.
 - The program reads that `config.txt` file (lines starting with `#` are ignored, the first non‑comment line contains the parameters).
 
-### Step 3: Prepare the `config.txt` file
+**To test a dataset:**
+1. Remove the `#` from the beginning of the line you want to use.
+2. Make sure **only ONE line is uncommented**.
+3. Save the file.
 
-**Place `config.txt` in the same folder as your `.cpp` file** (not inside `configs/` folder – Code::Blocks runs from the source file's directory).
-
-Example `config.txt` for `radix_sort_step.cpp`:
-This is a comment
+**Example** – to test `dataset_1000.csv` with rows 1-7:
 dataset_1000.csv 1 7
 
+text
 
-Example `config.txt` for `radix_sort.cpp`:
-This is a comment
-dataset_1000.csv
+**Example** – to test full sort on `dataset_5000.csv` (for `radix_sort.cpp`):
+dataset_5000.csv
 
+text
 
-### Step 4: Make sure your CSV datasets are accessible
+### Step 3: Build and Run
 
-- You can either **copy all CSV files** into the same folder as your `.cpp` file, OR
-- Use **full paths** in `config.txt`, e.g.:
-../datasets/dataset_1000.csv 1 7
+1. In Code::Blocks, click **Build → Build** (Ctrl+F9) to compile.
+2. Click **Build → Run** (Ctrl+F10) to execute.
+3. The output file will be created in the same folder.
 
+### Step 4: Test another dataset
 
-**Recommended for simplicity:** Copy the CSV file you need to the same folder as your `.cpp` when testing.
+1. Comment out the previous line by adding `#` at the beginning.
+2. Uncomment a different line.
+3. Save `config.txt`.
+4. Run again (Ctrl+F10) – no need to rebuild unless you changed the code.
 
-### Step 5: Run for different datasets
+### Step 5: Where to find outputs
 
-To test a different dataset:
+| Program | Output file |
+|---------|-------------|
+| `radix_sort_step.cpp` | `dataset_<size>_radix_sorted_step_<start>_<end>.txt` |
+| `radix_sort.cpp` | `dataset_<size>.radix_sorted_dataset_<size>.csv` + `radix_sort_time_<size>.txt` |
 
-1. Close Code::Blocks.
-2. **Edit `config.txt`** with a new filename (e.g., `dataset_5000.csv 1 7`).
-3. Reopen `radix_sort_step.cpp` in Code::Blocks.
-4. Click **Build and Run** again.
+All output files are saved in the **same folder as your `.cpp` file**.
 
-**Alternative:** Create multiple config files (e.g., `config_1000.txt`, `config_5000.txt`) and rename the one you want to `config.txt` before running.
+### Important Notes
+
+- **Only uncomment ONE line at a time** – the program uses the first non‑commented line it finds.
+- Make sure your CSV datasets are in the **same folder** as the `.cpp` file, or use a relative path like `../datasets/dataset_1000.csv`.
 
 ---
 
