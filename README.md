@@ -47,7 +47,7 @@ Each team member will work on their own `.cpp` files. **Do not put all files in 
 - The program looks for a file named `config.txt` in the **same folder as the `.cpp` file**.
 - The program reads that `config.txt` file (lines starting with `#` are ignored, the first non‑comment line contains the parameters).
 
-**To test a dataset:**
+### **To test a dataset:**
 1. Remove the `#` from the beginning of the line you want to use.
 2. Make sure **only ONE line is uncommented**.
 3. Save the file.
