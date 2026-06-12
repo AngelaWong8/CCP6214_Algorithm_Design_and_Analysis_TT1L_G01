@@ -17,7 +17,7 @@
 This repository contains the full implementation of the group assignment for CCP6214. The project includes:
 
 - **Dataset generator** – creates 10 CSV files with unique random 10‑digit integers and 5‑letter strings.
-- **Radix Sort (LSD)** – sorts integers from the rightmost digit. Two versions:
+- **Radix Sort (LSD)** – sorts integers from the rightmost digit:
   - `radix_sort_step` – shows sorting steps for a given row range.
   - `radix_sort` – sorts the whole dataset, outputs sorted CSV and running time.
 - **Heap Sort (Max‑Heap)** – sorts using a heap data structure. (Similar step and full versions.)
