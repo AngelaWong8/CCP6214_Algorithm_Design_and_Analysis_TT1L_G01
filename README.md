@@ -36,7 +36,9 @@ This repository contains the full implementation of the group assignment for CCP
 
 Each team member will work on their own `.cpp` files. **Do not put all files in one project** and keep them separate for clarity.
 
-#### For Radix Sort:
+---
+
+### Remarks For Radix Sort:
 
 1. Open Code::Blocks.
 2. **File → Open** → navigate to `src/radix_sort_step.cpp`
@@ -55,12 +57,10 @@ Each team member will work on their own `.cpp` files. **Do not put all files in 
 **Example** – to test `dataset_1000.csv` with rows 1-7:
 dataset_1000.csv 1 7
 
-text
-
 **Example** – to test full sort on `dataset_5000.csv` (for `radix_sort.cpp`):
 dataset_5000.csv
 
-text
+---
 
 ### Step 3: Build and Run
 
