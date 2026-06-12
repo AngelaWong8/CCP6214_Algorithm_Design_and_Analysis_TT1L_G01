@@ -54,7 +54,7 @@ Each team member will work on their own `.cpp` files. **Do not put all files in 
 2. Make sure **only ONE line is uncommented**.
 3. Save the file.
 
-**Example** – to test `dataset_1000.csv` with rows 1-7:
+**Example** – to test `dataset_1000.csv` with rows 1-7 (for `radix_sort_step.cpp`):
 dataset_1000.csv 1 7
 
 **Example** – to test full sort on `dataset_5000.csv` (for `radix_sort.cpp`):
