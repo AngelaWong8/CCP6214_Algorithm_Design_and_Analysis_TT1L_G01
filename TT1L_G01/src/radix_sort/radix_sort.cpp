@@ -3,7 +3,7 @@
 // Course: CCP6214 Algorithm Design and Analysis
 // Lecture Class: TC1L
 // Tutorial Class: TT1L
-// Trimester: 2620
+// Trimester: 2610
 // Member_1: 252UC254PP | ANGELA WONG XIN YI | angelawong877@gmail.com | 01111165515
 // Member_2: 252UC254RQ | DAMIA IRDINA BINTI AZZUDDIN RIZAL | dmiaird.23@gmail.com | 0193278464
 // Member_3: 252UC254Q5 | NUR AFIA BINTI FAHRUDEAN | afia.fahrudean@gmail.com | 0186645540
