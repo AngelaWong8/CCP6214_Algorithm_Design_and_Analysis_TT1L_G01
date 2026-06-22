@@ -60,6 +60,23 @@ dataset_1000.csv 1 7
 **Example** – to test full sort on `dataset_5000.csv` (for `radix_sort.cpp`):
 dataset_5000.csv
 
+### Remarks for Hash Table Search
+To run the hash_table_search codes, please ensure the datasets below is present in the same file as the hash_table_search.cpp for a smooth run, as demonstrated below:
+
+hash table/
+│
+├── hash_table_search.cpp     # Main source implementation
+├── dataset_1000000.csv          # Generated database input arrays
+├── dataset_5000000.csv
+├── dataset_10000000.csv
+├── dataset_15000000.csv
+├── dataset_20000000.csv
+├── dataset_25000000.csv
+├── dataset_30000000.csv
+├── dataset_35000000.csv
+└── dataset_40000000.csv
+└── dataset_50000000.csv
+
 ---
 
 ### Step 3: Build and Run
