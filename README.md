@@ -90,6 +90,19 @@ All output files are saved in the **same folder as your `.cpp` file**.
 - Make sure your CSV datasets are in the **same folder** as the `.cpp` file, or use a relative path like `../datasets/dataset_1000.csv`.
 
 ---
+
+## Team Collaboration Workflow
+
+### Each member should:
+
+1. **Create their own Code::Blocks project** inside their assigned folder
+
+2. **Keep their own datasets** – copy the required CSV files into their local folder when testing.
+
+3. **Commit and push** only their `.cpp` files to GitHub (not CSV files or executables).
+
+---
+
 ### Remarks for Hash Table Search
 To run the hash_table_search codes, please ensure the datasets below is present in the same file as the hash_table_search.cpp for a smooth run, as demonstrated below:
 ```text
@@ -106,13 +119,3 @@ hash table/
 ├── dataset_35000000.csv
 └── dataset_40000000.csv
 └── dataset_50000000.csv
-```text
-## Team Collaboration Workflow
-
-### Each member should:
-
-1. **Create their own Code::Blocks project** inside their assigned folder
-
-2. **Keep their own datasets** – copy the required CSV files into their local folder when testing.
-
-3. **Commit and push** only their `.cpp` files to GitHub (not CSV files or executables).
