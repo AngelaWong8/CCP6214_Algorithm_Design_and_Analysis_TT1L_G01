@@ -1,4 +1,14 @@
 # ============================================
+# Radix Sort Step Configuration File
+# ============================================
+# Uncomment ONE line below to select the dataset.
+# All lines starting with '#' are ignored.
+#
+# Format: filename start_row end_row
+# Example: dataset_1000.csv 1 7
+# ============================================
+
+# ============================================
 # RADIX SORT CONFIGURATION FILE
 # ============================================
 # Instructions:
@@ -12,27 +22,28 @@
 # ===========================================================
 # ========== RADIX SORT STEP (with start/end rows) ==========
 # ===========================================================
-# dataset_1000.csv 1 7
-# dataset_5000.csv 1 7
-# dataset_10000.csv 1 7
-# dataset_50000.csv 1 7
-# dataset_100000.csv 1 7
-# dataset_500000.csv 1 7
 # dataset_1000000.csv 1 7
-# dataset_2500000.csv 1 7
 # dataset_5000000.csv 1 7
 # dataset_10000000.csv 1 7
+# dataset_15000000.csv 1 7
+# dataset_20000000.csv 1 7
+# dataset_25000000.csv 1 7
+# dataset_30000000.csv 1 7
+# dataset_35000000.csv 1 7
+# dataset_40000000.csv 1 7
+# dataset_50000000.csv 1 7
 
 # ======================================================
 # ========== RADIX SORT FULL (entire dataset) ==========
 # ======================================================
-# dataset_1000.csv
-# dataset_5000.csv
-# dataset_10000.csv
-# dataset_50000.csv
-# dataset_100000.csv
-# dataset_500000.csv
 # dataset_1000000.csv
-# dataset_2500000.csv
 # dataset_5000000.csv
 # dataset_10000000.csv
+# dataset_15000000.csv
+# dataset_20000000.csv
+# dataset_25000000.csv
+# dataset_30000000.csv
+# dataset_35000000.csv
+# dataset_40000000.csv
+# dataset_50000000.csv
+
