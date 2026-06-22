@@ -91,7 +91,6 @@ All output files are saved in the **same folder as your `.cpp` file**.
 
 ---
 ### Remarks for Hash Table Search
-## Workspace Directory Rules
 To run the hash_table_search codes, please ensure the datasets below is present in the same file as the hash_table_search.cpp for a smooth run, as demonstrated below:
 ```text
 hash table/
