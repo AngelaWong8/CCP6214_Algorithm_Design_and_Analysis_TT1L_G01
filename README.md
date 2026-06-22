@@ -90,6 +90,24 @@ All output files are saved in the **same folder as your `.cpp` file**.
 - Make sure your CSV datasets are in the **same folder** as the `.cpp` file, or use a relative path like `../datasets/dataset_1000.csv`.
 
 ---
+## Remarks for Hash Table Search
+## Directory Setup & Compilation Requirements
+
+### Workspace Directory Rules
+For the compilation engine to access your data objects without relative file path errors, your execution space must match this setup:
+```text
+YourProjectDirectory/
+│
+├── hash_table_search.cpp     # Main source implementation
+├── dataset_1000.csv          # Generated database input arrays
+├── dataset_5000.csv
+├── dataset_10000.csv
+├── dataset_50000.csv
+├── dataset_100000.csv
+├── dataset_150000.csv
+├── dataset_200000.csv
+├── dataset_250000.csv
+└── dataset_350000.csv
 
 ## Team Collaboration Workflow
 
