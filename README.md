@@ -21,7 +21,7 @@ This repository contains the full implementation of the group assignment for CCP
   - `radix_sort_step` – shows sorting steps for a given row range.
   - `radix_sort` – sorts the whole dataset, outputs sorted CSV and running time.
 - **Heap Sort (Max‑Heap)** – sorts using a heap data structure.
-- **Hash Table Search** – implements search with linear collision resolution, measures best/average/worst case times.
+- **Hash Table Search** – implements search with separate chaining collision resolution, measures best/average/worst case times.
 
 ---
 
@@ -90,22 +90,23 @@ All output files are saved in the **same folder as your `.cpp` file**.
 - Make sure your CSV datasets are in the **same folder** as the `.cpp` file, or use a relative path like `../datasets/dataset_1000.csv`.
 
 ---
-## Remarks for Hash Table Search
-### Workspace Directory Rules
-For the compilation engine to access your data objects without relative file path errors, your execution space must match this setup:
+### Remarks for Hash Table Search
+## Workspace Directory Rules
+To run the hash_table_search codes, please ensure the datasets below is present in the same file as the hash_table_search.cpp for a smooth run, as demonstrated below:
 ```text
-YourProjectDirectory/
+hash table/
 │
 ├── hash_table_search.cpp     # Main source implementation
-├── dataset_1000.csv          # Generated database input arrays
-├── dataset_5000.csv
-├── dataset_10000.csv
-├── dataset_50000.csv
-├── dataset_100000.csv
-├── dataset_150000.csv
-├── dataset_200000.csv
-├── dataset_250000.csv
-└── dataset_350000.csv
+├── dataset_1000000.csv          # Generated database input arrays
+├── dataset_5000000.csv
+├── dataset_10000000.csv
+├── dataset_15000000.csv
+├── dataset_20000000.csv
+├── dataset_25000000.csv
+├── dataset_30000000.csv
+├── dataset_35000000.csv
+└── dataset_40000000.csv
+└── dataset_50000000.csv
 
 ## Team Collaboration Workflow
 
