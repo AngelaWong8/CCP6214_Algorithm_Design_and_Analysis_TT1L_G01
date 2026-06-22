@@ -91,8 +91,6 @@ All output files are saved in the **same folder as your `.cpp` file**.
 
 ---
 ## Remarks for Hash Table Search
-## Directory Setup & Compilation Requirements
-
 ### Workspace Directory Rules
 For the compilation engine to access your data objects without relative file path errors, your execution space must match this setup:
 ```text
